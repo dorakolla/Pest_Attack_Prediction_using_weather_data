@@ -1,0 +1,108 @@
+{% load static %}
+{% csrf_token %}
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+        /* Style the form container */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        h1{
+            font-size: 28px; 
+            font-weight: bold; 
+            text-align: center;
+            color: #610C9F; 
+            text-transform: uppercase; 
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); 
+            margin-top: 20px; 
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        body{
+            background-color: #FAF3E0;
+        }
+        .heading{
+            margin-bottom: 20px;
+        }
+        .form-container {
+            
+            width: 400px;
+            height: 300px;
+            margin: 0 auto;
+            padding: 45px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        /* Style the form fields and button */
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            /* width: 70%; */
+        }
+        .main-container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-container button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 1px;
+            cursor: pointer;
+        }
+        h1{
+            text-align: center;
+        }
+        h3{
+            font-size: 1.6rem;
+        }
+        /* Style the button on hover */
+        .form-container button:hover {
+            background-color: #0056b3;
+        }
+        button{
+            width: 100%;
+            font-size: 1.1rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <div >
+
+        <div class="heading">
+            <h1>Pest Prediction</h1>
+        </div>
+        <!-- Displayinh the form -->
+        <div class="form-container">
+            <h3>Select Your region</h3>
+            <form method="post" action="">
+                {% csrf_token %}
+                {{ form }}
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
