@@ -26,5 +26,6 @@ Gaussian Naive Bayes. Random Forest achieved the highest
 accuracy at 98%.
 
 # Authors:
-Kolla Dorasanaiah                    Gandham Sai Ram Pavan         Irigineni Manohar <br>
-AM.EN.U4AIE20041                     AM.EN.U4AIE20125              AM.EN.U4AIE20131
+Kolla Dorasanaiah      AM.EN.U4AIE20041
+Gandham Sai Ram Pavan  AM.EN.U4AIE20125
+Irigineni Manohar      AM.EN.U4AIE20131
