@@ -1,4 +1,4 @@
-# Pest_Attack_Prediction_using_weather_data
+# Prediction of Rice Pest Attacks in Raipur Region using weather Data
 
 # Abstract
 In the constantly changing world of farming, rice
