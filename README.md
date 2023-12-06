@@ -24,8 +24,12 @@ to forecast pest attacks. Five classification algorithms were tested:
 Random Forest, Gradient Boosting, SMO, linear regression, and
 Gaussian Naive Bayes. Random Forest achieved the highest
 accuracy at 98%.
+# Result:
+<br>
+<br>
+<img width="393" alt="Picture 1" src="https://github.com/dorakolla/Pest_Attack_Prediction_using_weather_data/assets/73239478/a925c424-f13f-4f09-bd72-44b7b12bd5e5">
 
 # Authors:
-Kolla Dorasanaiah      AM.EN.U4AIE20041
-Gandham Sai Ram Pavan  AM.EN.U4AIE20125
-Irigineni Manohar      AM.EN.U4AIE20131
+Kolla Dorasanaiah      - AM.EN.U4AIE20041 <br>
+Gandham Sai Ram Pavan  - AM.EN.U4AIE20125 <br>
+Irigineni Manohar      - AM.EN.U4AIE20131 <br>
