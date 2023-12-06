@@ -24,3 +24,7 @@ to forecast pest attacks. Five classification algorithms were tested:
 Random Forest, Gradient Boosting, SMO, linear regression, and
 Gaussian Naive Bayes. Random Forest achieved the highest
 accuracy at 98%.
+
+# Authors:
+Kolla Dorasanaiah                    Gandham Sai Ram Pavan         Irigineni Manohar
+AM.EN.U4AIE20041                     AM.EN.U4AIE20125              AM.EN.U4AIE20131
